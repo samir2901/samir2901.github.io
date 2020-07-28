@@ -1,0 +1,114 @@
+body{
+    position: relative;        
+    background: #1E1E1E;
+}
+
+#maintext{
+    position: absolute;
+    width: 611px;
+    height: 164px;
+    left: 67px;
+    top: 10%;    
+}
+
+#whatido{
+    position: absolute;
+    width: 309px;
+    height: 26px;
+    left: 67px;
+    top: 253px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 26px;    
+    color: #ABABAB;
+
+}
+
+#hi{
+    position: absolute;
+    width: 171px;
+    height: 56px;
+    left: 67px;
+    top: 286px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;    
+}
+
+#myname{
+    position: absolute;
+    width: 611px;
+    height: 75px;
+    left: 67px;
+    top: 330px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 75px;    
+    color: #FFFFFF;
+}
+
+#line{
+    position: absolute;
+    width: 338px;
+    height: 0px;
+    left: 69px;
+    top: 417px;
+    border: 2px solid #FF3E3E;
+}
+
+
+#icons{
+    position: absolute;
+    width: 197px;
+    height: 72px;
+    left: 69px;
+    top: 444px;
+}
+
+#email{        
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+
+a{
+    color: #FF3E3E;
+    text-decoration: none;
+} 
+
+
+
+ul{ 
+    position: fixed;
+    bottom: 0;
+    left: 42%;
+    display: flex;        
+    justify-content: center;
+    list-style: none;
+    margin: 2em 0 0;
+    padding: 0;
+    color: #FF3E3E;
+}
+
+li{
+    margin: 0.5em;
+}
+
+#social-list__item:hover{
+    opacity: 0.7;
+}
+
+i{
+    margin: 1em;
+}
